@@ -1,6 +1,13 @@
+Frontend: HTML, CSS (for styling)
+Backend: Python (Flask)
+Database: Oracle SQL Developer
+Notebook Support: Jupyter (.ipynb) for showcasing code-based projects
+
 portfolio/
-│── static/       # CSS, JavaScript, images
-│── templates/    # HTML files
-│── app.py        # Main Flask application
-│── database.db   # SQLite database (optional)
+│── static/          # CSS, JavaScript, images
+│── templates/       # HTML files
+│── notebooks/       # Jupyter notebooks
+│── app.py           # Flask backend
 │── requirements.txt # Dependencies
+│── database_setup.sql # Oracle DB setup script
+
