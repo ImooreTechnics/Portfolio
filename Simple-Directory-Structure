@@ -1,0 +1,6 @@
+portfolio/
+│── static/       # CSS, JavaScript, images
+│── templates/    # HTML files
+│── app.py        # Main Flask application
+│── database.db   # SQLite database (optional)
+│── requirements.txt # Dependencies
