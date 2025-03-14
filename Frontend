@@ -1,1 +1,64 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaiah Moore's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="App-header" style="background-color: #FF0000; padding: 20px;">
+        Isaiah Moore's Portfolio
+    </header>
+    <h1>This is a header</h1>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my portfolio! I am a Computer Science student with an interest in Clinical Data Science.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of project 1.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of project 2.</p>
+        </div>
+    </section>
+
+    <div>
+        <div>
+            <span style="color: red;">A wallpaper image of Clinical Data Science</span>
+        </div>
+        <img src="IMG" alt="Clinical Data Science Wallpaper" />
+    </div>
+    
+    <p>Top 3 most important concepts in Clinical Data Science:</p>
+    <ul>
+        <li>Data Quality and Integrity</li>
+        <li>Predictive Modeling and Machine Learning</li>
+        <li>Regulatory Compliance and Ethical Considerations</li>
+    </ul>
+
+    <h4>Top Skills in Clinical Data Science</h4>
+    <ul>
+        <li>Data Analysis and Cleaning</li>
+        <li>Machine Learning Model Development</li>
+        <li>Data Visualization with Python/R</li>
+    </ul>
+    
+    <div>
+        <button class="btn btn-primary" onclick="console.log('Hello World!')">Log Hello World</button>
+    </div>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: your.email@example.com</p>
+    </section>
+    
+    <script src="script.ts"></script>
+</body>
+</html>
